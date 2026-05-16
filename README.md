@@ -5,7 +5,7 @@ This repository serves as a technical showcase of my work in digital VLSI design
 
 ---
 
-## 🛠️ Technical Toolkit
+## Technical Toolkit
 
 * **PDK:** SkyWater 130nm (High Density)
 * **Digital Flow:** OpenLane (Yosys, OpenROAD, Magic, Netgen)
@@ -15,7 +15,7 @@ This repository serves as a technical showcase of my work in digital VLSI design
 
 ---
 
-## 🚀 Project Highlights
+## Project Highlights
 
 ### **1. AI Accelerator: PPA Optimization (RTL-to-GDSII)**
 **Core Focus:** Navigating the "Power-Performance-Area" triangle.
@@ -43,7 +43,7 @@ Modern silicon is only as good as its testability. In this project, I integrated
 
 ---
 
-## 💡 Why This Work Matters
+## Why This Work Matters
 The shift toward domain-specific architectures (DSAs) requires engineers who can bridge the gap between high-level AI algorithms and low-level physical constraints. My work here demonstrates a deep-dive into:
 
 1.  **Congestion Management:** Balancing utilization to ensure a design is routable without DRC violations.
@@ -52,7 +52,7 @@ The shift toward domain-specific architectures (DSAs) requires engineers who can
 
 ---
 
-## 🎓 About Me
+## About Me
 I am a technical engineering graduate currently preparing for Master’s studies in Electrical and Computer Engineering. I am passionate about hardware acceleration, VLSI reliability, and the open-source EDA movement.
 
 **Connect with me:**
