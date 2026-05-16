@@ -26,7 +26,7 @@ This project involves the physical implementation of a 4x4 Systolic Array design
 * **Area-Efficient Run:** Minimized silicon footprint to **0.155 mm²** for edge-AI applications.
 * **Baseline Run:** Balanced stability and routing congestion at a 65% utilization factor.
 
-**[View Project 1 Details & PPA Tables](./AI_Accelerator_Optimization)**
+**[View Project 1 Details & PPA Tables](./01_AI_Accelerator_Optimization)**
 
 ---
 
@@ -39,7 +39,7 @@ Modern silicon is only as good as its testability. In this project, I integrated
 * **Verification:** Utilized a custom scan-testbench to shift out internal states, successfully identifying the exact bit-level failure through the serial `scan_out` pin.
 * **Physical Closure:** Met a hold-slack margin of **+1.82ns**, ensuring the scan chain remains stable across the entire chip during high-speed shifting.
 
-**[View Project 2 Fault Analysis & Waveforms](./AI_Accelerator_DFT_Fault_Analysis)**
+**[View Project 2 Fault Analysis & Waveforms](./02_AI_Accelerator_DFT_Fault_Analysis)**
 
 ---
 
