@@ -48,17 +48,28 @@ The total power jumped from **16.2 mW** to **38.8 mW** when moving from the Effi
 Below are the finalized GDSII layouts generated via the OpenLane flow.
 
 * **Base Layout:** Stable routing with 65% utilization.
+
+![Base Layout](./assets/visuals/base/base_layout.png)
+
 * **Fastest Layout:** Dense logic placement with aggressive timing buffers (see highlighted regions).
+
+![Fastest Layout](./assets/visuals/fastest/fastest_layout.png)
+
 * **Efficiency Layout:** Compact footprint optimized for minimum silicon area.
 
-![Base Layout](./assets/visuals/base_layout.png)
-![Fastest Layout](./assets/visuals/fastest_layout.png)
-![Efficient Layout](./assets/visuals/efficient_layout.png)
+![Efficient Layout](./assets/visuals/efficient/efficient_layout.png)
 
 ### **Standard Cell Detail**
 This zoomed-in view from KLayout shows the high-density standard cell placement and the Metal-1/Metal-2 routing layers that form the internal processing elements.
 
-![Efficient Zoom](./assets/visuals/efficient_zoom.png)
+* **Base:**
+![Base Zoom](./assets/visuals/base/base_zoom.png)
+
+* **Fastest:**
+![Fastest Zoom](./assets/visuals/fastest/fastest_zoom.png)
+
+* **Efficienct:**
+![Efficient Zoom](./assets/visuals/efficient/efficient_zoom.png)
 
 ---
 
