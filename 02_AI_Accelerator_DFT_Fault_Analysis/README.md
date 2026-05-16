@@ -23,13 +23,13 @@ To simulate a manufacturing defect, I modified the **Processing Element (PE)** a
 ### **Diagnostic Waveform Evidence**
 The screenshot below compares the **Golden Model** (Correct) vs. the **Faulty Model**. Note how Bit 5 in the faulty run is "stuck" high, while the other bits toggle normally.
 
-**Faulty vs Golden Waveform:**
-
-* **Faulty-Waveform:**
-(./assets/waveforms/waveform_faulty.png)
+**Golden vs Faulty Waveform:**
 
 * **Golden-Waveform:**
-(./assets/waveforms/waveform_golden.png)
+![golden waveform](./assets/waveforms/waveform_golden.png)
+
+* **Faulty-Waveform:**
+![faulty waveform](./assets/waveforms/waveform_faulty.png)
 
 ---
 
