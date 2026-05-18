@@ -31,7 +31,8 @@ module top_accelerator_tb_dft;
         .b0(b0), .b1(b1), .b2(b2), .b3(b3),
         .acc00(acc00), .acc01(acc01), .acc02(acc02), .acc03(acc03),
         .acc10(acc10), .acc11(acc11), .acc12(acc12), .acc13(acc13),
-        .acc20(acc20), .acc21(acc21), .acc22(acc22), .acc23(acc23),         .acc30(acc30), .acc31(acc31), .acc32(acc32), .acc33(acc33)
+        .acc20(acc20), .acc21(acc21), .acc22(acc22), .acc23(acc23),        
+        .acc30(acc30), .acc31(acc31), .acc32(acc32), .acc33(acc33)
     );
 
     always #5 clk = ~clk;
