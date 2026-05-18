@@ -1,34 +1,26 @@
-# 1. Read your Verilog files
 read_verilog hdl/smart_pe.v
 read_verilog hdl/systolic_array_4x4.v
 read_verilog hdl/data_skewer.v
 read_verilog hdl/top_accelerator.v
 
-# 2. Identify the "Captain" (Top Level Module)
 hierarchy -check -top top_accelerator
 
-# 3. Translate high-level blocks to logic
-proc;      # Translates 'always' blocks to latches/flops
-opt;       # Clean up unused wires
-fsm;       # Extract and optimize State Machines
+proc;      
+opt;       
+fsm;       
 opt;       
 
-# 4. Map to the Sky130 Standard Cells
-# This is where behavioral math turns into specific gates
 techmap; 
 opt;
 
-# 5. Logic Optimization (The 'ABC' Tool)
-abc -liberty /home/mokshith/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty /home/.../sky130_fd_sc_hd__tt_025C_1v80.lib
 
-# 6. Final Clean up
 clean
 
-# 7. Output the "Netlist"
 write_verilog -noattr top_accelerator_netlist.v
 
 proc; opt; fsm; opt;
 
 show -format dot -prefix ./systolic_schematic
 
-stat # Show the final gate count and area
+stat 
