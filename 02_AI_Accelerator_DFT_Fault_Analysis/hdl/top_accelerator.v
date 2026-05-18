@@ -49,7 +49,7 @@ module top_accelerator #(
         .in_a_row0(skewed_a0), .in_a_row1(skewed_a1), .in_a_row2(skewed_a2), .in_a_row3(skewed_a3),
         .in_b_col0(skewed_b0), .in_b_col1(skewed_b1), .in_b_col2(skewed_b2), .in_b_col3(skewed_b3),
        
-       .acc00(acc00), .acc01(acc01), .acc02(acc02), .acc03(acc03),
+        .acc00(acc00), .acc01(acc01), .acc02(acc02), .acc03(acc03),
         .acc10(acc10), .acc11(acc11), .acc12(acc12), .acc13(acc13),
         .acc20(acc20), .acc21(acc21), .acc22(acc22), .acc23(acc23),
         .acc30(acc30), .acc31(acc31), .acc32(acc32), .acc33(acc33)
